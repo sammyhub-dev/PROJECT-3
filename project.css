@@ -1,0 +1,181 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 13%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-size: 30px;
+}
+
+body{
+    background: url(abstract_waves_black_background-wallpaper-1366x768.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-right:700px;
+    background-position: center;
+
+
+
+}
+
+.nav-bar a{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.nav-bar a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+    bottom: -5px;
+    border-radius: 5px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s ease;
+}
+.nav-bar a:hover::after{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.container{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    to0p: 60%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    margin-top: 20px;
+    
+  
+}
+
+.item .logo{
+    font-size: 90px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-item h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
+
+.form-box{
+    width:700px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0 0, 0, .2);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin-left: 800px;
+   
+}
+
+.form-box h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-box  .input-field{
+    width: 98%;
+    height: 55px;
+    
+    margin: 30px 0;
+
+}
+
+.input-field  input{
+    width: 98%;
+    height: 96%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 18px;
+    padding: 2px 0.8px 2px 20px;
+ 
+}
+.input-field input::placeholder{
+    color: white;
+
+}
+.form-box .btn{
+    width: 50%;
+    height: 45px;
+    margin-left: 150px;
+    margin-bottom:60px ;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    
+
+    
+   
+}
+
+
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 130%;
+    color: white;
+    background: transparent;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.social-icon a i{
+    color: white;
+    font-size: 45px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .5 ease;
+}
+
+.social-icon a:hover{
+    transform: scale(1.2);
+}
+
+
+
+
